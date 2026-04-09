@@ -1,0 +1,18 @@
+# Dependencies & build
+node_modules
+dist
+dist-ssr
+*.local
+
+# Rust / Tauri
+src-tauri/target
+
+# Env (use .env.example in repo)
+.env
+.env.*.local
+
+# Logs & OS
+logs
+*.log
+.DS_Store
+.idea
