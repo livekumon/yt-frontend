@@ -1,4 +1,5 @@
-const base = () => import.meta.env.VITE_API_URL || "";
+const base = () =>
+  (import.meta.env.VITE_API_URL || "").replace(/\/+$/, "");
 
 const TOKEN_KEY = "ytdl_auth_token";
 
